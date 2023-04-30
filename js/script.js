@@ -12,7 +12,7 @@ whereToAddPoint.appendChild(startPoint)
 
 setTimeout(serpinsky,1000)
 function serpinsky(){
-	if(itterations<2000){Vertical0Andhorizontal1=0
+	if(itterations<3000){Vertical0Andhorizontal1=0
 		randomize=Math.floor(Math.random()*3)
 		newPoint=document.createElement(`div`)
 		newPoint.classList.add(`axel${itterations+1}`,`axel`)
