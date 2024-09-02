@@ -17,5 +17,5 @@ function newPoint(){
     let g=(77+(100/triHeight*lastPoint[1]))*0.66 + (77+(100/sideSize*lastPoint[0]))*0.33
     let b=(212+(-110/triHeight*lastPoint[1]))*0.66 + (212+(-110/sideSize*lastPoint[0]))*0.33
     canvasReady.fillStyle=`rgb(${r},${g},${b})`                     
-    canvasReady.fillRect(lastPoint[0],lastPoint[1],1,1)
+    canvasReady.fillRect(lastPoint[0],lastPoint[1],2,2)
 }
